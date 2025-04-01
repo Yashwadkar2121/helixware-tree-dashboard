@@ -35,16 +35,15 @@ const Dashboard = () => {
     console.log("Form Data:", formData);
   };
 
-  const [isOpen, setIsOpen] = useState(false);
-  const [activeButton, setActiveButton] = useState(null);
-  const [activeData, setActiveData] = useState(null);
+  const [isOpen, setIsOpen] = useState(true);
+  const [activeButton, setActiveButton] = useState("Asset");
+  const [activeData, setActiveData] = useState(companyData.Asset);
 
   const toggleDrawer = (label) => {
     setActiveButton(label);
     setIsOpen(true);
-    setActiveData(companyData[label]); // Set the data based on the label
+    setActiveData(companyData[label]);
   };
-
   // const closeDrawer = () => {
   //   setIsOpen(false);
   //   setActiveButton(null);
@@ -62,6 +61,8 @@ const Dashboard = () => {
   };
 
   const renderTree = (data, path = "") => {
+    if (!data) return <div>No data available</div>;
+
     const assetTitle = path === "" ? activeButton : null;
     const assetData = path === "" && data ? data : data;
 
@@ -130,7 +131,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <nav className="bg-blue-400 p-1 text-white pl-8 font-medium ">
+      <nav className="bg-blue-400 p-1 text-white pl-8 font-medium">
         Chart of Accounts
       </nav>
       <div className="min-h-screen flex gap-1 bg-gray-100 p-2 w-full">
@@ -403,11 +404,9 @@ const Dashboard = () => {
 
         {/* Main Content */}
         <main className="w-8/12 bg-white rounded-lg shadow-md">
-          {isOpen && (
-            <div className="text-left shadow-md bg-white rounded-md relative overflow-y-auto h-[100vh]">
-              {renderTree(activeData)}
-            </div>
-          )}
+          <div className="text-left shadow-md bg-white rounded-md relative overflow-y-auto h-[100vh]">
+            {renderTree(activeData)}
+          </div>
         </main>
 
         {/* Drawer */}
