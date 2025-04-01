@@ -45,11 +45,11 @@ const Dashboard = () => {
     setActiveData(companyData[label]); // Set the data based on the label
   };
 
-  const closeDrawer = () => {
-    setIsOpen(false);
-    setActiveButton(null);
-    setActiveData(null);
-  };
+  // const closeDrawer = () => {
+  //   setIsOpen(false);
+  //   setActiveButton(null);
+  //   setActiveData(null);
+  // };
 
   // State to manage expand/collapse state of tree nodes
   const [expanded, setExpanded] = useState({});
@@ -411,7 +411,7 @@ const Dashboard = () => {
         </main>
 
         {/* Drawer */}
-        <aside className="bg-white px-2 py-3 rounded-lg shadow-md flex flex-col gap-2">
+        <aside className="bg-white px-2 py-3 rounded-lg shadow-md flex flex-col gap-2 w-1/12">
           {["Asset", "Liability", "Equity", "Revenue", "Expenditure"].map(
             (label, index) => (
               <button
