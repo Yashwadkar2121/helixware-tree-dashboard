@@ -1,0 +1,510 @@
+{
+  "Asset": {
+    "100011": {
+      "name": "Fixed Assets",
+      "100012": {
+        "name": "Intangible Assets",
+        "100013": {
+          "name": "Formation Expenses",
+          "101000": "Capitalised Formation Expenses",
+          "101010": "Capitalised Business Expansion Costs",
+          "101500": "Accumulated Deprec. - Capitalised Formation Exp."
+        },
+        "101501": {
+          "name": "Concessions, Patents, Licences, Trademarks, etc",
+          "102010": "Patents and Royalties",
+          "102020": "Licences",
+          "102510": "Accumulated Depreciation - Patents and Royalties",
+          "102520": "Accumulated Depreciation - Licences"
+        },
+        "102521": {
+          "name": "Goodwill",
+          "103000": "Goodwill",
+          "103500": "Amortisation - Goodwill"
+        }
+      },
+      "103501": {
+        "name": "Tangible Assets",
+        "103502": {
+          "name": "Land & Buildings",
+          "110000": "Freehold Land",
+          "110020": "Buildings",
+          "110520": "Accumulated Depreciation - Buildings"
+        },
+        "110521": {
+          "name": "Plant & Machinery",
+          "111000": "Plant and Machinery",
+          "111500": "Accumulated Depreciation - Plant and Machinery"
+        },
+        "111501": {
+          "name": "Fixtures, Fittings, Tools & Equipment",
+          "112000": "Office Equipment",
+          "112010": "Furniture & Fittings",
+          "112020": "IT Equipment",
+          "112030": "Capitalized Software",
+          "112500": "Accumulated Depreciation - Office Equipment",
+          "112510": "Accumulated Depreciation - Furniture & Fittings",
+          "112520": "Accumulated Depreciation - IT Equipment",
+          "112530": "Accumulated Depreciation - Capitalised Software"
+        },
+        "112531": {
+          "name": "Motor Vehicles",
+          "113000": "Motor Vehicles",
+          "113500": "Accumulated Depreciation - Motor Vehicles"
+        },
+        "113501": {
+          "name": "Payments on Account & Capital Work in Progress",
+          "114000": "Capital Works in Progress",
+          "114100": "Job Costing Capitalisation",
+          "114500": "Depreciation - Capital Works in Progress"
+        }
+      },
+      "114501": {
+        "name": "Investments",
+        "114502": {
+          "name": "Shares in Group Undertakings",
+          "120000": "Shares in Group Companies",
+          "120010": "Shares in Related Companies"
+        },
+        "120011": {
+          "name": "Loans to Group Undertakings",
+          "121000": "Loans to Group Companies",
+          "121010": "Loans to Related Companies"
+        },
+        "121011": {
+          "name": "Investments Other Than Loans",
+          "124000": "Trade Investments",
+          "124010": "Other Investments"
+        }
+      }
+    },
+    "125000": {
+      "name": "Current Assets",
+      "125001": "Stocks",
+      "125002": "Raw Materials & Consumables"
+    },
+    "100012": {
+      "name": "Fixed Assets",
+      "100012": {
+        "name": "Intangible Assets",
+        "100013": {
+          "name": "Formation Expenses",
+          "101000": "Capitalised Formation Expenses",
+          "101010": "Capitalised Business Expansion Costs",
+          "101500": "Accumulated Deprec. - Capitalised Formation Exp."
+        },
+        "101501": {
+          "name": "Concessions, Patents, Licences, Trademarks, etc",
+          "102010": "Patents and Royalties",
+          "102020": "Licences",
+          "102510": "Accumulated Depreciation - Patents and Royalties",
+          "102520": "Accumulated Depreciation - Licences"
+        },
+        "102521": {
+          "name": "Goodwill",
+          "103000": "Goodwill",
+          "103500": "Amortisation - Goodwill"
+        }
+      },
+      "103501": {
+        "name": "Tangible Assets",
+        "103502": {
+          "name": "Land & Buildings",
+          "110000": "Freehold Land",
+          "110020": "Buildings",
+          "110520": "Accumulated Depreciation - Buildings"
+        },
+        "110521": {
+          "name": "Plant & Machinery",
+          "111000": "Plant and Machinery",
+          "111500": "Accumulated Depreciation - Plant and Machinery"
+        },
+        "111501": {
+          "name": "Fixtures, Fittings, Tools & Equipment",
+          "112000": "Office Equipment",
+          "112010": "Furniture & Fittings",
+          "112020": "IT Equipment",
+          "112030": "Capitalized Software",
+          "112500": "Accumulated Depreciation - Office Equipment",
+          "112510": "Accumulated Depreciation - Furniture & Fittings",
+          "112520": "Accumulated Depreciation - IT Equipment",
+          "112530": "Accumulated Depreciation - Capitalised Software"
+        },
+        "112531": {
+          "name": "Motor Vehicles",
+          "113000": "Motor Vehicles",
+          "113500": "Accumulated Depreciation - Motor Vehicles"
+        },
+        "113501": {
+          "name": "Payments on Account & Capital Work in Progress",
+          "114000": "Capital Works in Progress",
+          "114100": "Job Costing Capitalisation",
+          "114500": "Depreciation - Capital Works in Progress"
+        }
+      },
+      "114501": {
+        "name": "Investments",
+        "114502": {
+          "name": "Shares in Group Undertakings",
+          "120000": "Shares in Group Companies",
+          "120010": "Shares in Related Companies"
+        },
+        "120011": {
+          "name": "Loans to Group Undertakings",
+          "121000": "Loans to Group Companies",
+          "121010": "Loans to Related Companies"
+        },
+        "121011": {
+          "name": "Investments Other Than Loans",
+          "124000": "Trade Investments",
+          "124010": "Other Investments"
+        }
+      }
+    }
+  },
+  "Liability": {
+    "100011": {
+      "name": "Fixed Assets",
+      "100012": {
+        "name": "Intangible Assets",
+        "100013": {
+          "name": "Formation Expenses",
+          "101000": "Capitalised Formation Expenses",
+          "101010": "Capitalised Business Expansion Costs",
+          "101500": "Accumulated Deprec. - Capitalised Formation Exp."
+        },
+        "101501": {
+          "name": "Concessions, Patents, Licences, Trademarks, etc",
+          "102010": "Patents and Royalties",
+          "102020": "Licences",
+          "102510": "Accumulated Depreciation - Patents and Royalties",
+          "102520": "Accumulated Depreciation - Licences"
+        },
+        "102521": {
+          "name": "Goodwill",
+          "103000": "Goodwill",
+          "103500": "Amortisation - Goodwill"
+        }
+      },
+      "103501": {
+        "name": "Tangible Assets",
+        "103502": {
+          "name": "Land & Buildings",
+          "110000": "Freehold Land",
+          "110020": "Buildings",
+          "110520": "Accumulated Depreciation - Buildings"
+        },
+        "110521": {
+          "name": "Plant & Machinery",
+          "111000": "Plant and Machinery",
+          "111500": "Accumulated Depreciation - Plant and Machinery"
+        },
+        "111501": {
+          "name": "Fixtures, Fittings, Tools & Equipment",
+          "112000": "Office Equipment",
+          "112010": "Furniture & Fittings",
+          "112020": "IT Equipment",
+          "112030": "Capitalized Software",
+          "112500": "Accumulated Depreciation - Office Equipment",
+          "112510": "Accumulated Depreciation - Furniture & Fittings",
+          "112520": "Accumulated Depreciation - IT Equipment",
+          "112530": "Accumulated Depreciation - Capitalised Software"
+        },
+        "112531": {
+          "name": "Motor Vehicles",
+          "113000": "Motor Vehicles",
+          "113500": "Accumulated Depreciation - Motor Vehicles"
+        },
+        "113501": {
+          "name": "Payments on Account & Capital Work in Progress",
+          "114000": "Capital Works in Progress",
+          "114100": "Job Costing Capitalisation",
+          "114500": "Depreciation - Capital Works in Progress"
+        }
+      },
+      "114501": {
+        "name": "Investments",
+        "114502": {
+          "name": "Shares in Group Undertakings",
+          "120000": "Shares in Group Companies",
+          "120010": "Shares in Related Companies"
+        },
+        "120011": {
+          "name": "Loans to Group Undertakings",
+          "121000": "Loans to Group Companies",
+          "121010": "Loans to Related Companies"
+        },
+        "121011": {
+          "name": "Investments Other Than Loans",
+          "124000": "Trade Investments",
+          "124010": "Other Investments"
+        }
+      }
+    },
+    "125000": {
+      "name": "Current Assets",
+      "125001": "Stocks",
+      "125002": "Raw Materials & Consumables"
+    }
+  },
+  "Equity": {
+    "100011": {
+      "name": "Fixed Assets",
+      "100012": {
+        "name": "Intangible Assets",
+        "100013": {
+          "name": "Formation Expenses",
+          "101000": "Capitalised Formation Expenses",
+          "101010": "Capitalised Business Expansion Costs",
+          "101500": "Accumulated Deprec. - Capitalised Formation Exp."
+        },
+        "101501": {
+          "name": "Concessions, Patents, Licences, Trademarks, etc",
+          "102010": "Patents and Royalties",
+          "102020": "Licences",
+          "102510": "Accumulated Depreciation - Patents and Royalties",
+          "102520": "Accumulated Depreciation - Licences"
+        },
+        "102521": {
+          "name": "Goodwill",
+          "103000": "Goodwill",
+          "103500": "Amortisation - Goodwill"
+        }
+      },
+      "103501": {
+        "name": "Tangible Assets",
+        "103502": {
+          "name": "Land & Buildings",
+          "110000": "Freehold Land",
+          "110020": "Buildings",
+          "110520": "Accumulated Depreciation - Buildings"
+        },
+        "110521": {
+          "name": "Plant & Machinery",
+          "111000": "Plant and Machinery",
+          "111500": "Accumulated Depreciation - Plant and Machinery"
+        },
+        "111501": {
+          "name": "Fixtures, Fittings, Tools & Equipment",
+          "112000": "Office Equipment",
+          "112010": "Furniture & Fittings",
+          "112020": "IT Equipment",
+          "112030": "Capitalized Software",
+          "112500": "Accumulated Depreciation - Office Equipment",
+          "112510": "Accumulated Depreciation - Furniture & Fittings",
+          "112520": "Accumulated Depreciation - IT Equipment",
+          "112530": "Accumulated Depreciation - Capitalised Software"
+        },
+        "112531": {
+          "name": "Motor Vehicles",
+          "113000": "Motor Vehicles",
+          "113500": "Accumulated Depreciation - Motor Vehicles"
+        },
+        "113501": {
+          "name": "Payments on Account & Capital Work in Progress",
+          "114000": "Capital Works in Progress",
+          "114100": "Job Costing Capitalisation",
+          "114500": "Depreciation - Capital Works in Progress"
+        }
+      },
+      "114501": {
+        "name": "Investments",
+        "114502": {
+          "name": "Shares in Group Undertakings",
+          "120000": "Shares in Group Companies",
+          "120010": "Shares in Related Companies"
+        },
+        "120011": {
+          "name": "Loans to Group Undertakings",
+          "121000": "Loans to Group Companies",
+          "121010": "Loans to Related Companies"
+        },
+        "121011": {
+          "name": "Investments Other Than Loans",
+          "124000": "Trade Investments",
+          "124010": "Other Investments"
+        }
+      }
+    },
+    "125000": {
+      "name": "Current Assets",
+      "125001": "Stocks",
+      "125002": "Raw Materials & Consumables"
+    }
+  },
+  "Revenue": {
+    "100011": {
+      "name": "Fixed Assets",
+      "100012": {
+        "name": "Intangible Assets",
+        "100013": {
+          "name": "Formation Expenses",
+          "101000": "Capitalised Formation Expenses",
+          "101010": "Capitalised Business Expansion Costs",
+          "101500": "Accumulated Deprec. - Capitalised Formation Exp."
+        },
+        "101501": {
+          "name": "Concessions, Patents, Licences, Trademarks, etc",
+          "102010": "Patents and Royalties",
+          "102020": "Licences",
+          "102510": "Accumulated Depreciation - Patents and Royalties",
+          "102520": "Accumulated Depreciation - Licences"
+        },
+        "102521": {
+          "name": "Goodwill",
+          "103000": "Goodwill",
+          "103500": "Amortisation - Goodwill"
+        }
+      },
+      "103501": {
+        "name": "Tangible Assets",
+        "103502": {
+          "name": "Land & Buildings",
+          "110000": "Freehold Land",
+          "110020": "Buildings",
+          "110520": "Accumulated Depreciation - Buildings"
+        },
+        "110521": {
+          "name": "Plant & Machinery",
+          "111000": "Plant and Machinery",
+          "111500": "Accumulated Depreciation - Plant and Machinery"
+        },
+        "111501": {
+          "name": "Fixtures, Fittings, Tools & Equipment",
+          "112000": "Office Equipment",
+          "112010": "Furniture & Fittings",
+          "112020": "IT Equipment",
+          "112030": "Capitalized Software",
+          "112500": "Accumulated Depreciation - Office Equipment",
+          "112510": "Accumulated Depreciation - Furniture & Fittings",
+          "112520": "Accumulated Depreciation - IT Equipment",
+          "112530": "Accumulated Depreciation - Capitalised Software"
+        },
+        "112531": {
+          "name": "Motor Vehicles",
+          "113000": "Motor Vehicles",
+          "113500": "Accumulated Depreciation - Motor Vehicles"
+        },
+        "113501": {
+          "name": "Payments on Account & Capital Work in Progress",
+          "114000": "Capital Works in Progress",
+          "114100": "Job Costing Capitalisation",
+          "114500": "Depreciation - Capital Works in Progress"
+        }
+      },
+      "114501": {
+        "name": "Investments",
+        "114502": {
+          "name": "Shares in Group Undertakings",
+          "120000": "Shares in Group Companies",
+          "120010": "Shares in Related Companies"
+        },
+        "120011": {
+          "name": "Loans to Group Undertakings",
+          "121000": "Loans to Group Companies",
+          "121010": "Loans to Related Companies"
+        },
+        "121011": {
+          "name": "Investments Other Than Loans",
+          "124000": "Trade Investments",
+          "124010": "Other Investments"
+        }
+      }
+    },
+    "125000": {
+      "name": "Current Assets",
+      "125001": "Stocks",
+      "125002": "Raw Materials & Consumables"
+    }
+  },
+  "Expenditure": {
+    "100011": {
+      "name": "Fixed Assets",
+      "100012": {
+        "name": "Intangible Assets",
+        "100013": {
+          "name": "Formation Expenses",
+          "101000": "Capitalised Formation Expenses",
+          "101010": "Capitalised Business Expansion Costs",
+          "101500": "Accumulated Deprec. - Capitalised Formation Exp."
+        },
+        "101501": {
+          "name": "Concessions, Patents, Licences, Trademarks, etc",
+          "102010": "Patents and Royalties",
+          "102020": "Licences",
+          "102510": "Accumulated Depreciation - Patents and Royalties",
+          "102520": "Accumulated Depreciation - Licences"
+        },
+        "102521": {
+          "name": "Goodwill",
+          "103000": "Goodwill",
+          "103500": "Amortisation - Goodwill"
+        }
+      },
+      "103501": {
+        "name": "Tangible Assets",
+        "103502": {
+          "name": "Land & Buildings",
+          "110000": "Freehold Land",
+          "110020": "Buildings",
+          "110520": "Accumulated Depreciation - Buildings"
+        },
+        "110521": {
+          "name": "Plant & Machinery",
+          "111000": "Plant and Machinery",
+          "111500": "Accumulated Depreciation - Plant and Machinery"
+        },
+        "111501": {
+          "name": "Fixtures, Fittings, Tools & Equipment",
+          "112000": "Office Equipment",
+          "112010": "Furniture & Fittings",
+          "112020": "IT Equipment",
+          "112030": "Capitalized Software",
+          "112500": "Accumulated Depreciation - Office Equipment",
+          "112510": "Accumulated Depreciation - Furniture & Fittings",
+          "112520": "Accumulated Depreciation - IT Equipment",
+          "112530": "Accumulated Depreciation - Capitalised Software"
+        },
+        "112531": {
+          "name": "Motor Vehicles",
+          "113000": "Motor Vehicles",
+          "113500": "Accumulated Depreciation - Motor Vehicles"
+        },
+        "113501": {
+          "name": "Payments on Account & Capital Work in Progress",
+          "114000": "Capital Works in Progress",
+          "114100": "Job Costing Capitalisation",
+          "114500": "Depreciation - Capital Works in Progress"
+        }
+      },
+      "114501": {
+        "name": "Investments",
+        "114502": {
+          "name": "Shares in Group Undertakings",
+          "120000": "Shares in Group Companies",
+          "120010": "Shares in Related Companies"
+        },
+        "120011": {
+          "name": "Loans to Group Undertakings",
+          "121000": "Loans to Group Companies",
+          "121010": "Loans to Related Companies"
+        },
+        "121011": {
+          "name": "Investments Other Than Loans",
+          "124000": "Trade Investments",
+          "124010": "Other Investments"
+        }
+      }
+    },
+    "125000": {
+      "name": "Current Assets",
+      "125001": "Stocks",
+      "125002": "Raw Materials & Consumables"
+    },
+    "125001": {
+      "name": "Current Assets",
+      "125001": "Stocks",
+      "125002": "Raw Materials & Consumables"
+    }
+  }
+}
