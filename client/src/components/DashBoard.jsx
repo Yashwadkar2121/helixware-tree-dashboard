@@ -276,7 +276,7 @@ const Dashboard = () => {
               </div>
             </div>
 
-            <h2 className="font-bold mb-5 text-sm">G/L Account Properties</h2>
+            <h2 className="font-bold mb-4 text-sm">G/L Account Properties</h2>
             {/* Account Properties */}
             <div className="rounded relative w-full">
               <legend className="absolute -top-3 left-2 bg-white px-2 text-[9px] font-medium transform transition-all duration-300 group-hover:-translate-y-1">
@@ -348,10 +348,10 @@ const Dashboard = () => {
               </label>
             </div>
 
-            <h2 className="font-bold mb-2 text-sm">
+            <h2 className="font-bold  text-sm mb-3">
               Relevant for Cost Accounting
             </h2>
-            <div className="flex justify-between items-center gap-2 mt-5">
+            <div className="flex justify-between items-center gap-2 mt-2">
               {/* Checkbox */}
               <label className="flex items-center text-[9px] whitespace-nowrap">
                 <input
@@ -373,7 +373,7 @@ const Dashboard = () => {
             </div>
 
             {/* Buttons */}
-            <div className="flex justify-between items-center mt-5">
+            <div className="flex justify-between items-center mt-2">
               {/* Submit Button */}
               <button
                 type="submit"
